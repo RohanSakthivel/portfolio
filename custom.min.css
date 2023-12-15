@@ -1,0 +1,71 @@
+/*
+ *  Draco HTML Template by @afnizarnur
+ *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+ */
+body{background-image: url(62654bc9be4f20b50928cecb1b2209a8.jpg);
+     background-blend-mode: color:white;  }
+h1,h2,h3,h4,h5,h6{font-family:"Playfair Display SC",serif;color:rgb(13, 13, 13)}
+a,p,li{font-family:"Lato",Arial,sans-serif;color:#393a3a;font-size:1em;line-height:1.75em}
+a:hover{text-decoration:none !important;color:#313333 !important;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}
+.container{margin:auto;max-width:662px;padding:0 20px}@media only screen and (max-width: 767px){.intro img{display:block;margin-left:auto;margin-right:auto}footer{text-align:center}}.typed-cursor{opacity:1;font-weight:100;-webkit-animation:blink 0.7s infinite;-moz-animation:blink 0.7s infinite;-ms-animation:blink 0.7s infinite;-o-animation:blink 0.7s infinite;animation:blink 0.7s infinite}@-webkit-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-moz-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-ms-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-o-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+.main-nav{background:#353232;padding-top:23px}.main-nav nav ul li a{color:#645858}
+.main-nav nav ul li.active a{color:#375aa2}
+.section.second{margin-bottom:90px}
+.section .container{position:relative}
+.section .container:after{position:absolute;content:url(separator.png);left:20px}
+.section .container h1{text-transform:uppercase;margin-bottom:30px;position:relative}
+.intro{padding:95px 0px 70px 0px;overflow-x:hidden}
+.intro img{width:81px;height:81px;border-radius:99px}
+.intro .wrap{margin:30px 0px}.intro h1:before{position:absolute;left:-220px;top:-150px;font-size:270px;z-index:-1;color:#f4f4f4}
+.intro h1 span{font-size:47px}
+.work .work-list{margin-left:0px}
+.work .work-list li{list-style:none;font-size:0.9375em;color:#090909}
+.work .work-list li a{padding-bottom:5px;font-size:1.1875em;font-weight:700;text-decoration:none;border-bottom:1px solid #b3b3b3}
+.work .work-list li a:hover{border-bottom:1px solid #333}
+.award .award-list{margin-left:0px}
+.award .award-list li:first-child{font-size:0.9375em;color:rgb(103, 19, 238)}
+.skills .skill-list{margin-left:0px}
+.skills .skill-list li:first-child{font-size:0.9375em;color:rgb(103, 19, 238)}
+.quote{background:url(developers-gif-showcase.gif);padding:20px 0px;margin-top:120px}
+.quote h1{margin:100px 0px;padding:40px 20px;border:5px solid #fff;color:#fff}
+footer{padding:50px 0px 0px 0px}
+footer .social li{display:inline;margin-left:20px}
+footer .social li a{font-size:1.25em;color:#999}
+.hhh {
+    padding: 0.8em 1.8em;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: black;
+    padding: 30px; ;
+   }
+   
+   .hhh::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: black;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .hhh:hover::before {
+    width: 105%;
+   }
+   
+   .hhh:hover {
+    color: #fcfbfb;
+   }
+   
